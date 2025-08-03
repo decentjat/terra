@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "terra_test" {
-  name          = "terra-test"
+  name          = "krishans3"
   location      = "US"
   storage_class = "STANDARD"
   force_destroy = true # allows bucket deletion even if it contains objects
